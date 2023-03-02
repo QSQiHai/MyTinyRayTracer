@@ -119,7 +119,6 @@ int main() {
 	// cam = perfect_angle();
 
 	// Render
-
 	std::cout << "P3\n" << image_width << " " << image_height << "\n255\n";
 	
 	for (int j = image_height - 1; j >= 0; --j) {
